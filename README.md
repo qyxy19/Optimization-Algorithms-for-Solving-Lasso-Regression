@@ -3,7 +3,7 @@
 
 ## 一、引言
 
-Lasso（Least Absolute Shrinkage and Selection Operator）回归通过在损失函数中引入 L1 正则化项，能够实现特征选择和模型稀疏化，广泛应用于高维数据建模。本实验采用标准 Lasso 目标函数，数学形式为：
+Lasso回归通过在损失函数中引入 L1 正则化项，能够实现特征选择和模型稀疏化，广泛应用于高维数据建模。本实验采用标准 Lasso 目标函数，数学形式为：
 
 $$
 \min_{\beta} \frac{1}{2n} \| X\beta - y\|_2^2 + \lambda \|\beta\|_1
